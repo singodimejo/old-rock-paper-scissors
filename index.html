@@ -42,20 +42,20 @@
 
             if (p !== null) {
                 if (pWin) {
-                    return console.log(`You win! ${p} beats ${c}!`)
+                    return alert(`You win! ${p} beats ${c}!`)
                 } else if (pLose) {
-                    return console.log(`I win! ${c} beats ${p}`)
+                    return alert(`I win! ${c} beats ${p}`)
                 } else if (tie) {
-                    return console.log(`Its a Tie! We both chose ${p}`)
+                    return alert(`Its a Tie! We both chose ${p}`)
                 } else if (p === "") {
-                    return console.log("I'm sorry, but it seems that you forgot to choose, therfore I win!")
+                    return alert("I'm sorry, but it seems that you forgot to choose, therfore I win!")
                 } else if (p !== "nothing") {
-                    return console.log(`I'm sorry, but I don't think ${p} is an option`)
+                    return alert(`I'm sorry, but I don't think ${p} is an option`)
                 } else if (p === "nothing") {
-                    return console.log("Aww, Don't you wanna play?")
+                    return alert("Aww, Don't you wanna play?")
                 };
             } else if (p === null) {
-                return console.log("Aww, Don't you wanna play?")
+                return alert("Aww, Don't you wanna play?")
             }; 
         };
 

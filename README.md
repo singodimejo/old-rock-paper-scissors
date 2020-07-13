@@ -1,1 +1,1 @@
-This is a console exclusive game of Rock, Paper, and Scissors
+This is a very basic, prompt and alert box reliant, html and vanilla JS coded, game of Rock, Paper, and Scissors
