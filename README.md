@@ -1,3 +1,1 @@
-#Rock - Paper - Scissors
-
-This is a web-based game of good old Rock - Paper - Scissors
+This is a very basic, prompt and alert box reliant, html and vanilla JS coded, game of Rock, Paper, and Scissors
