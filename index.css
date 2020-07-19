@@ -1,0 +1,65 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: darkturquoise;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    padding: 5rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+#choices {
+    padding: 1rem 0 1.5rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choice {
+    padding: 0.5rem;
+}
+
+.choice:hover {
+    border: 1px solid whitesmoke;
+    border-radius: 10%;
+}
+
+a.button {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+a.button:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+    cursor: pointer;
+}
+
+@media all and (max-width:30em) {
+    a.button {
+        display:block;
+        margin:0.4em auto;
+    }
+}
+
+#title {
+    margin: 0.67em 0 0 0;
+}
+
+#title, h2 {
+    font-family: 'Grenze Gotisch', cursive;
+}
