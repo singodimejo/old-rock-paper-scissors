@@ -1,1 +1,3 @@
-This is a very basic, prompt and alert box reliant, html and vanilla JS coded, game of Rock, Paper, and Scissors
+#A Game of Rock-Paper-Scissors brought to the web!
+
+This is the good old game of Rock, Paper, and Scissors brought to the web!
